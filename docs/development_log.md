@@ -3,6 +3,6 @@
 ---
 
 ## 1.24
-今天完成了基本调试环境的搭建，完成任务验收点一的相关要求。其中Hello World脚本是仓库src文件夹中的Hello World.sh文件，属于shell脚本，而自我介绍的GitHub Pages的网址在https://emm-art-ark.github.io/。  
+今天完成了基本调试环境的搭建，完成任务验收点一的相关要求。其中Hello World脚本是仓库src文件夹中的Hello World.sh文件，属于shell脚本，而自我介绍的GitHub Pages的网址在https://emm-art-ark.github.io/  
 今天的主要工作是学习了github仓库的创建、SSH key的配置，学习了GitHub Pages的创建和编辑，安装了git bash来实现Git SSH密钥的添加。为了编写Hello World脚本，今天还了解了Shell相关的部分内容和语法。  
 此外，今天还学习了有关python与pytorch深度学习的有关内容，特别是卷积神经网络（CNN）的相关算法和实现方法。第二天就可以开始训练模型来进行手写数字识别了。
