@@ -10,8 +10,13 @@
 ## 1.25
 今天完成了CNN手写数字识别的模型训练，准确率达到了96.37%。这次CNN手写数字识别的模型训练使用的是LeNet-5模型，利用MNIST数据集进行模型训练。  
 代码主要分为以下几个方面：  
-1. 引入模型训练所需模块，如torch、torchvision等  
+1. 引入模型训练所需模块，如torch、torchvision等
 2. 获取所需MNIST数据集，通过torchvision.datasets.MNIST方法分别获取测试集和训练集，并使用transforms.Compose对数据进行预处理
 3. 使用torch.utils.data.DataLoader对数据进行分批次处理
 4. 定义模型CNN并实例化，通过torch.nn.Sequential按层顺序封装模型
 5. 定义损失函数loss_fn = nn.CrossEntropyLoss()
+6. 定义学习率和优化器optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate)
+7. 定义训练轮数和损失量列表，便于后续训练模型和绘制图形
+8. 训练模型
+9. 绘制损失随训练轮数减少的图形
+10. 最后训练一轮，计算最终模型准确率
