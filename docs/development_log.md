@@ -21,6 +21,7 @@
 9. 绘制损失随训练轮数减少的图形
 10. 最后训练一轮，计算最终模型准确率
 
-关于本次模型训练所用的参数，数据分批次处理时batch_size=256，学习率learning_rate = 0.6，训练轮数epochs = 10
+关于本次模型训练所用的参数，数据分批次处理时batch_size=256，学习率learning_rate = 0.6，训练轮数epochs = 10  
+![]("C:\Users\19769\Pictures\LeNet-5-2.png")
 
 ## 1.26
