@@ -30,3 +30,7 @@
 以下是训练和验证时的相关图片  
 ![这是训练结果图片](https://github.com/EMM-art-ark/FOCUS-WinterCamp-2026/blob/main/docs/results.png)
 ![这是推理测试结果图片](https://github.com/EMM-art-ark/FOCUS-WinterCamp-2026/blob/main/docs/test1.jpg)
+
+## 1.27
+今天利用自己的数据集进行训练，并对训练后的模型进行推理测试。  
+模型训练所用的数据集是自己拍照得到的50张照片，其中40张用作训练集，10张用作测试集。官方预训练模型是yolo26n.pt，训练过程中相关参数workers=0,epochs=500,batch=16,device=[-1,-1]
