@@ -29,3 +29,4 @@
 今天学习了YOLO的相关使用方法，并利用YOLO官方的coco128数据集训练了模型，使用训练得到的模型来完成对指定图片的推理验证。其中官方预训练模型是yolo26n.pt，训练时相关参数workers=0, epochs=100, batch=16, device=-1。  
 以下是训练和验证时的相关图片  
 ![这是训练结果图片](https://github.com/EMM-art-ark/FOCUS-WinterCamp-2026/blob/main/docs/results.png)
+![这是推理测试结果图片](https://github.com/EMM-art-ark/FOCUS-WinterCamp-2026/blob/main/docs/test1.jpg)
