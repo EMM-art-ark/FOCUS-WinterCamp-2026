@@ -43,4 +43,5 @@
 6. 对模型训练效果进行测试
 
 以下是今日训练和验证时的相关图片  
-![这是训练模型得到的图片](https://github.com/EMM-art-ark/FOCUS-WinterCamp-2026/blob/main/docs/train.png)
+![这是训练模型得到的图片](https://github.com/EMM-art-ark/FOCUS-WinterCamp-2026/blob/main/docs/train.png)  
+根据程序运行提示，模型训练187轮后停止训练，因为
